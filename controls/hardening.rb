@@ -16,5 +16,8 @@
 # author: Dominik Richter
 
 # ensure linux servers are hardenend
-include_controls 'os-hardening'
+include_controls 'os-hardening' do
+  skip_control "sysctl-11"
+  skip_control "sysctl-17"
+end
 #include_controls 'ssh-hardening'
