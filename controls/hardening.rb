@@ -17,4 +17,4 @@
 
 # ensure linux servers are hardenend
 include_controls 'os-hardening'
-include_controls 'ssh-hardening'
+#include_controls 'ssh-hardening'
